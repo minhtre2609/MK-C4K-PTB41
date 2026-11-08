@@ -6,11 +6,11 @@ print()  # Print a newline
 for i in A:
     print(i, end = " ")
 """
-
+#find(Xaucon, start, stop) tra ve vi tri dau tien cua xau con trong xau cha, neu khong tim thay thi tra ve -1
 S = "abcd123" 
 B = "d12"
 C = "duy"
-x = B in S
+x = B in S #True
 y = S.find(B)
 z = S.find(C)
 print(x)
